@@ -1,0 +1,23 @@
+{
+  "name": "biletiniz-api",
+  "version": "1.0.0",
+  "description": "Uygun uçak bileti Nereye isterseniz | Biletiniz.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniaMaw/biletiniz-api.git"
+  },
+  "author": "Dania Mawlawi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NourSammour/biletiniz/issues"
+  },
+  "homepage": "https://github.com/NourSammour/biletiniz#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.7.0",
+    "express": "^4.17.1"
+  }
+}
