@@ -1,5 +1,5 @@
 {
-  "name": "biletiniz",
+  "name": "biletiniz-api",
   "version": "1.0.0",
   "description": "Uygun uçak bileti Nereye isterseniz | Biletiniz.com",
   "main": "index.js",
