@@ -1,0 +1,23 @@
+{
+  "name": "biletiniz-api",
+  "version": "1.0.0",
+  "description": "Here is the Steps for using this code:\r First of all we are useing Apollo Server Express with GraphQl.\r #1. Set up your project with:\r ```npm init```\r #2. Editing the packaging file \r  ``` \"scripts\": {\r     \"start\": \"node index\"\r   }```\r now you are ready to start:\r #1. install apollo-server-express\r ``` npm install apollo-server-express --save```\r #2. install express\r ``` npm install express --save```\r #3. Create index.js file with the code \r #4. open browser in the url http://localhost:4000/graphql\r #5. write in the quere section:\r ```\r \t{\r \t\thello\r \t}\r ```\r #6. the result will show up like this\r ```\r {\r   \"data\": {\r     \"hello\": \"Hello world!\"\r   }\r }\r ```",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniaMaw/biletiniz-api.git"
+  },
+  "author": "Dania Mawlawi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniaMaw/biletiniz-api/issues"
+  },
+  "homepage": "https://github.com/daniaMaw/biletiniz-api#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.7.0",
+    "express": "^4.17.1"
+  }
+}
