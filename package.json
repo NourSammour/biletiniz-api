@@ -4,7 +4,8 @@
   "description": "Uygun uçak bileti Nereye isterseniz | Biletiniz.com",
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "dev": "backpack",
+    "build": "backpack build"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/NourSammour/biletiniz#readme",
   "dependencies": {
     "apollo-server-express": "^2.7.0",
+    "backpack-core": "^0.8.4",
     "express": "^4.17.1"
   }
 }
